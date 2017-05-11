@@ -1,0 +1,451 @@
+GOROOT=/usr/local/go
+GOPATH=/home/hillzhang/go/workplace:/home/hillzhang/go/workplace
+/usr/local/go/bin/go test -c -o /tmp/algorithm_test.gogo gotest/points
+/tmp/algorithm_test.gogo -test.v -test.run ^TestPoints$
+384
+1m39.50031872s
+62080
+runtime error: slice bounds out of range
+(2.0*12.0)/(1.0*1.0)
+runtime error: slice bounds out of range
+(2.0*12.0)/(2.0-1.0)
+runtime error: slice bounds out of range
+(2.0*12.0)/(3.0-2.0)
+runtime error: slice bounds out of range
+(2.0*12.0)/(4.0-3.0)
+runtime error: slice bounds out of range
+(2.0*12.0)/(5.0-4.0)
+runtime error: slice bounds out of range
+(2.0*12.0)/(6.0-5.0)
+runtime error: slice bounds out of range
+(2.0*12.0)/(7.0-6.0)
+runtime error: slice bounds out of range
+(2.0*12.0)/(8.0-7.0)
+runtime error: slice bounds out of range
+(2.0*12.0)/(9.0-8.0)
+1:29: expected ')', found '}'
+interface conversion: interface is nil, not float64
+(2.0*12.0)/(11.0-10.0)
+1:29: expected ')', found '}'
+interface conversion: interface is nil, not float64
+(2.0*12.0)/(12.0-11.0)
+1:29: expected ')', found '}'
+interface conversion: interface is nil, not float64
+(2.0*12.0)/(13.0-12.0)
+1:27: expected ')', found '}'
+interface conversion: interface is nil, not float64
+(3.0*8.0)/(10.0-9.0)
+1:27: expected ')', found '}'
+interface conversion: interface is nil, not float64
+(3.0*8.0)/(11.0-10.0)
+1:27: expected ')', found '}'
+interface conversion: interface is nil, not float64
+(3.0*8.0)/(12.0-11.0)
+1:27: expected ')', found '}'
+interface conversion: interface is nil, not float64
+(3.0*8.0)/(13.0-12.0)
+1:27: expected ')', found '}'
+interface conversion: interface is nil, not float64
+(4.0*6.0)/(10.0-9.0)
+1:27: expected ')', found '}'
+interface conversion: interface is nil, not float64
+(4.0*6.0)/(11.0-10.0)
+1:27: expected ')', found '}'
+interface conversion: interface is nil, not float64
+(4.0*6.0)/(12.0-11.0)
+1:27: expected ')', found '}'
+interface conversion: interface is nil, not float64
+(4.0*6.0)/(13.0-12.0)
+runtime error: slice bounds out of range
+(4.0*12.0)/(1.0+1.0)
+runtime error: slice bounds out of range
+(4.0*12.0)/(1.0*2.0)
+runtime error: slice bounds out of range
+(4.0*12.0)/(2.0*1.0)
+runtime error: slice bounds out of range
+(4.0*12.0)/(3.0-1.0)
+runtime error: slice bounds out of range
+(4.0*12.0)/(4.0-2.0)
+runtime error: slice bounds out of range
+(4.0*12.0)/(5.0-3.0)
+runtime error: slice bounds out of range
+(4.0*12.0)/(6.0-4.0)
+runtime error: slice bounds out of range
+(4.0*12.0)/(7.0-5.0)
+runtime error: slice bounds out of range
+(4.0*12.0)/(8.0-6.0)
+runtime error: slice bounds out of range
+(4.0*12.0)/(9.0-7.0)
+1:29: expected ')', found '}'
+interface conversion: interface is nil, not float64
+(4.0*12.0)/(12.0-10.0)
+1:29: expected ')', found '}'
+interface conversion: interface is nil, not float64
+(4.0*12.0)/(13.0-11.0)
+1:27: expected ')', found '}'
+interface conversion: interface is nil, not float64
+(6.0*4.0)/(10.0-9.0)
+1:27: expected ')', found '}'
+interface conversion: interface is nil, not float64
+(6.0*4.0)/(11.0-10.0)
+1:27: expected ')', found '}'
+interface conversion: interface is nil, not float64
+(6.0*4.0)/(12.0-11.0)
+1:27: expected ')', found '}'
+interface conversion: interface is nil, not float64
+(6.0*4.0)/(13.0-12.0)
+1:27: expected ')', found '}'
+interface conversion: interface is nil, not float64
+(6.0*8.0)/(10.0-8.0)
+1:27: expected ')', found '}'
+interface conversion: interface is nil, not float64
+(6.0*8.0)/(11.0-9.0)
+1:27: expected ')', found '}'
+interface conversion: interface is nil, not float64
+(6.0*8.0)/(12.0-10.0)
+1:27: expected ')', found '}'
+interface conversion: interface is nil, not float64
+(6.0*8.0)/(13.0-11.0)
+runtime error: slice bounds out of range
+(6.0*12.0)/(1.0+2.0)
+runtime error: slice bounds out of range
+(6.0*12.0)/(1.0*3.0)
+runtime error: slice bounds out of range
+(6.0*12.0)/(2.0+1.0)
+runtime error: slice bounds out of range
+(6.0*12.0)/(3.0*1.0)
+runtime error: slice bounds out of range
+(6.0*12.0)/(4.0-1.0)
+runtime error: slice bounds out of range
+(6.0*12.0)/(5.0-2.0)
+runtime error: slice bounds out of range
+(6.0*12.0)/(6.0-3.0)
+runtime error: slice bounds out of range
+(6.0*12.0)/(7.0-4.0)
+runtime error: slice bounds out of range
+(6.0*12.0)/(8.0-5.0)
+runtime error: slice bounds out of range
+(6.0*12.0)/(9.0-6.0)
+1:29: expected ')', found '}'
+interface conversion: interface is nil, not float64
+(6.0*12.0)/(13.0-10.0)
+1:27: expected ')', found '}'
+interface conversion: interface is nil, not float64
+(8.0*3.0)/(10.0-9.0)
+1:27: expected ')', found '}'
+interface conversion: interface is nil, not float64
+(8.0*3.0)/(11.0-10.0)
+1:27: expected ')', found '}'
+interface conversion: interface is nil, not float64
+(8.0*3.0)/(12.0-11.0)
+1:27: expected ')', found '}'
+interface conversion: interface is nil, not float64
+(8.0*3.0)/(13.0-12.0)
+1:27: expected ')', found '}'
+interface conversion: interface is nil, not float64
+(8.0*6.0)/(10.0-8.0)
+1:27: expected ')', found '}'
+interface conversion: interface is nil, not float64
+(8.0*6.0)/(11.0-9.0)
+1:27: expected ')', found '}'
+interface conversion: interface is nil, not float64
+(8.0*6.0)/(12.0-10.0)
+1:27: expected ')', found '}'
+interface conversion: interface is nil, not float64
+(8.0*6.0)/(13.0-11.0)
+1:27: expected ')', found '}'
+interface conversion: interface is nil, not float64
+(8.0*9.0)/(10.0-7.0)
+1:27: expected ')', found '}'
+interface conversion: interface is nil, not float64
+(8.0*9.0)/(11.0-8.0)
+1:27: expected ')', found '}'
+interface conversion: interface is nil, not float64
+(8.0*9.0)/(12.0-9.0)
+1:27: expected ')', found '}'
+interface conversion: interface is nil, not float64
+(8.0*9.0)/(13.0-10.0)
+runtime error: slice bounds out of range
+(8.0*12.0)/(1.0+3.0)
+runtime error: slice bounds out of range
+(8.0*12.0)/(1.0*4.0)
+runtime error: slice bounds out of range
+(8.0*12.0)/(2.0+2.0)
+runtime error: slice bounds out of range
+(8.0*12.0)/(2.0*2.0)
+runtime error: slice bounds out of range
+(8.0*12.0)/(3.0+1.0)
+runtime error: slice bounds out of range
+(8.0*12.0)/(4.0*1.0)
+runtime error: slice bounds out of range
+(8.0*12.0)/(5.0-1.0)
+runtime error: slice bounds out of range
+(8.0*12.0)/(6.0-2.0)
+runtime error: slice bounds out of range
+(8.0*12.0)/(7.0-3.0)
+runtime error: slice bounds out of range
+(8.0*12.0)/(8.0-4.0)
+runtime error: slice bounds out of range
+(8.0*12.0)/(9.0-5.0)
+1:27: expected ')', found '}'
+interface conversion: interface is nil, not float64
+(9.0*8.0)/(10.0-7.0)
+1:27: expected ')', found '}'
+interface conversion: interface is nil, not float64
+(9.0*8.0)/(11.0-8.0)
+1:27: expected ')', found '}'
+interface conversion: interface is nil, not float64
+(9.0*8.0)/(12.0-9.0)
+1:27: expected ')', found '}'
+interface conversion: interface is nil, not float64
+(9.0*8.0)/(13.0-10.0)
+runtime error: slice bounds out of range
+(10.0*12.0)/(1.0+4.0)
+runtime error: slice bounds out of range
+(10.0*12.0)/(1.0*5.0)
+runtime error: slice bounds out of range
+(10.0*12.0)/(2.0+3.0)
+runtime error: slice bounds out of range
+(10.0*12.0)/(3.0+2.0)
+runtime error: slice bounds out of range
+(10.0*12.0)/(4.0+1.0)
+runtime error: slice bounds out of range
+(10.0*12.0)/(5.0*1.0)
+runtime error: slice bounds out of range
+(10.0*12.0)/(6.0-1.0)
+runtime error: slice bounds out of range
+(10.0*12.0)/(7.0-2.0)
+runtime error: slice bounds out of range
+(10.0*12.0)/(8.0-3.0)
+runtime error: slice bounds out of range
+(10.0*12.0)/(9.0-4.0)
+runtime error: slice bounds out of range
+(10.0*12.0)/(10.0-5.0)
+runtime error: slice bounds out of range
+(10.0*12.0)/(11.0-6.0)
+runtime error: slice bounds out of range
+(10.0*12.0)/(12.0-7.0)
+runtime error: slice bounds out of range
+(10.0*12.0)/(13.0-8.0)
+runtime error: slice bounds out of range
+(11.0+13.0)/(1.0*1.0)
+runtime error: slice bounds out of range
+(11.0+13.0)/(2.0-1.0)
+runtime error: slice bounds out of range
+(11.0+13.0)/(3.0-2.0)
+runtime error: slice bounds out of range
+(11.0+13.0)/(4.0-3.0)
+runtime error: slice bounds out of range
+(11.0+13.0)/(5.0-4.0)
+runtime error: slice bounds out of range
+(11.0+13.0)/(6.0-5.0)
+runtime error: slice bounds out of range
+(11.0+13.0)/(7.0-6.0)
+runtime error: slice bounds out of range
+(11.0+13.0)/(8.0-7.0)
+runtime error: slice bounds out of range
+(11.0+13.0)/(9.0-8.0)
+runtime error: slice bounds out of range
+(11.0+13.0)/(10.0-9.0)
+runtime error: slice bounds out of range
+(12.0*2.0)/(1.0*1.0)
+runtime error: slice bounds out of range
+(12.0*2.0)/(2.0-1.0)
+runtime error: slice bounds out of range
+(12.0*2.0)/(3.0-2.0)
+runtime error: slice bounds out of range
+(12.0*2.0)/(4.0-3.0)
+runtime error: slice bounds out of range
+(12.0*2.0)/(5.0-4.0)
+runtime error: slice bounds out of range
+(12.0*2.0)/(6.0-5.0)
+runtime error: slice bounds out of range
+(12.0*2.0)/(7.0-6.0)
+runtime error: slice bounds out of range
+(12.0*2.0)/(8.0-7.0)
+runtime error: slice bounds out of range
+(12.0*2.0)/(9.0-8.0)
+1:29: expected ')', found '}'
+interface conversion: interface is nil, not float64
+(12.0*2.0)/(11.0-10.0)
+1:29: expected ')', found '}'
+interface conversion: interface is nil, not float64
+(12.0*2.0)/(12.0-11.0)
+1:29: expected ')', found '}'
+interface conversion: interface is nil, not float64
+(12.0*2.0)/(13.0-12.0)
+runtime error: slice bounds out of range
+(12.0*4.0)/(1.0+1.0)
+runtime error: slice bounds out of range
+(12.0*4.0)/(1.0*2.0)
+runtime error: slice bounds out of range
+(12.0*4.0)/(2.0*1.0)
+runtime error: slice bounds out of range
+(12.0*4.0)/(3.0-1.0)
+runtime error: slice bounds out of range
+(12.0*4.0)/(4.0-2.0)
+runtime error: slice bounds out of range
+(12.0*4.0)/(5.0-3.0)
+runtime error: slice bounds out of range
+(12.0*4.0)/(6.0-4.0)
+runtime error: slice bounds out of range
+(12.0*4.0)/(7.0-5.0)
+runtime error: slice bounds out of range
+(12.0*4.0)/(8.0-6.0)
+runtime error: slice bounds out of range
+(12.0*4.0)/(9.0-7.0)
+1:29: expected ')', found '}'
+interface conversion: interface is nil, not float64
+(12.0*4.0)/(12.0-10.0)
+1:29: expected ')', found '}'
+interface conversion: interface is nil, not float64
+(12.0*4.0)/(13.0-11.0)
+runtime error: slice bounds out of range
+(12.0*6.0)/(1.0+2.0)
+runtime error: slice bounds out of range
+(12.0*6.0)/(1.0*3.0)
+runtime error: slice bounds out of range
+(12.0*6.0)/(2.0+1.0)
+runtime error: slice bounds out of range
+(12.0*6.0)/(3.0*1.0)
+runtime error: slice bounds out of range
+(12.0*6.0)/(4.0-1.0)
+runtime error: slice bounds out of range
+(12.0*6.0)/(5.0-2.0)
+runtime error: slice bounds out of range
+(12.0*6.0)/(6.0-3.0)
+runtime error: slice bounds out of range
+(12.0*6.0)/(7.0-4.0)
+runtime error: slice bounds out of range
+(12.0*6.0)/(8.0-5.0)
+runtime error: slice bounds out of range
+(12.0*6.0)/(9.0-6.0)
+1:29: expected ')', found '}'
+interface conversion: interface is nil, not float64
+(12.0*6.0)/(13.0-10.0)
+runtime error: slice bounds out of range
+(12.0*8.0)/(1.0+3.0)
+runtime error: slice bounds out of range
+(12.0*8.0)/(1.0*4.0)
+runtime error: slice bounds out of range
+(12.0*8.0)/(2.0*2.0)
+runtime error: slice bounds out of range
+(12.0*8.0)/(2.0+2.0)
+runtime error: slice bounds out of range
+(12.0*8.0)/(3.0+1.0)
+runtime error: slice bounds out of range
+(12.0*8.0)/(4.0*1.0)
+runtime error: slice bounds out of range
+(12.0*8.0)/(5.0-1.0)
+runtime error: slice bounds out of range
+(12.0*8.0)/(6.0-2.0)
+runtime error: slice bounds out of range
+(12.0*8.0)/(7.0-3.0)
+runtime error: slice bounds out of range
+(12.0*8.0)/(8.0-4.0)
+runtime error: slice bounds out of range
+(12.0*8.0)/(9.0-5.0)
+runtime error: slice bounds out of range
+(12.0*10.0)/(1.0+4.0)
+runtime error: slice bounds out of range
+(12.0*10.0)/(1.0*5.0)
+runtime error: slice bounds out of range
+(12.0*10.0)/(2.0+3.0)
+runtime error: slice bounds out of range
+(12.0*10.0)/(3.0+2.0)
+runtime error: slice bounds out of range
+(12.0*10.0)/(4.0+1.0)
+runtime error: slice bounds out of range
+(12.0*10.0)/(5.0*1.0)
+runtime error: slice bounds out of range
+(12.0*10.0)/(6.0-1.0)
+runtime error: slice bounds out of range
+(12.0*10.0)/(7.0-2.0)
+runtime error: slice bounds out of range
+(12.0*10.0)/(8.0-3.0)
+runtime error: slice bounds out of range
+(12.0*10.0)/(9.0-4.0)
+runtime error: slice bounds out of range
+(12.0*10.0)/(10.0-5.0)
+runtime error: slice bounds out of range
+(12.0*10.0)/(11.0-6.0)
+runtime error: slice bounds out of range
+(12.0*10.0)/(12.0-7.0)
+runtime error: slice bounds out of range
+(12.0*10.0)/(13.0-8.0)
+runtime error: slice bounds out of range
+(12.0+12.0)/(1.0*1.0)
+runtime error: slice bounds out of range
+(12.0*12.0)/(1.0+5.0)
+runtime error: slice bounds out of range
+(12.0*12.0)/(1.0*6.0)
+runtime error: slice bounds out of range
+(12.0+12.0)/(2.0-1.0)
+runtime error: slice bounds out of range
+(12.0*12.0)/(2.0*3.0)
+runtime error: slice bounds out of range
+(12.0*12.0)/(2.0+4.0)
+runtime error: slice bounds out of range
+(12.0+12.0)/(3.0-2.0)
+runtime error: slice bounds out of range
+(12.0*12.0)/(3.0*2.0)
+runtime error: slice bounds out of range
+(12.0*12.0)/(3.0+3.0)
+runtime error: slice bounds out of range
+(12.0*12.0)/(4.0+2.0)
+runtime error: slice bounds out of range
+(12.0+12.0)/(4.0-3.0)
+runtime error: slice bounds out of range
+(12.0*12.0)/(5.0+1.0)
+runtime error: slice bounds out of range
+(12.0+12.0)/(5.0-4.0)
+runtime error: slice bounds out of range
+(12.0*12.0)/(6.0*1.0)
+runtime error: slice bounds out of range
+(12.0+12.0)/(6.0-5.0)
+runtime error: slice bounds out of range
+(12.0*12.0)/(7.0-1.0)
+runtime error: slice bounds out of range
+(12.0+12.0)/(7.0-6.0)
+runtime error: slice bounds out of range
+(12.0*12.0)/(8.0-2.0)
+runtime error: slice bounds out of range
+(12.0+12.0)/(8.0-7.0)
+runtime error: slice bounds out of range
+(12.0*12.0)/(9.0-3.0)
+runtime error: slice bounds out of range
+(12.0+12.0)/(9.0-8.0)
+runtime error: slice bounds out of range
+(12.0*12.0)/(10.0-4.0)
+runtime error: slice bounds out of range
+(12.0+12.0)/(10.0-9.0)
+runtime error: slice bounds out of range
+(12.0*12.0)/(11.0-5.0)
+runtime error: slice bounds out of range
+(12.0*12.0)/(12.0-6.0)
+runtime error: slice bounds out of range
+(12.0*12.0)/(13.0-7.0)
+runtime error: slice bounds out of range
+(13.0+11.0)/(1.0*1.0)
+runtime error: slice bounds out of range
+(13.0+11.0)/(2.0-1.0)
+runtime error: slice bounds out of range
+(13.0+11.0)/(3.0-2.0)
+runtime error: slice bounds out of range
+(13.0+11.0)/(4.0-3.0)
+runtime error: slice bounds out of range
+(13.0+11.0)/(5.0-4.0)
+runtime error: slice bounds out of range
+(13.0+11.0)/(6.0-5.0)
+runtime error: slice bounds out of range
+(13.0+11.0)/(7.0-6.0)
+runtime error: slice bounds out of range
+(13.0+11.0)/(8.0-7.0)
+runtime error: slice bounds out of range
+(13.0+11.0)/(9.0-8.0)
+runtime error: slice bounds out of range
+(13.0+11.0)/(10.0-9.0)
+55854
+1346
+
+Process finished with exit code 0
