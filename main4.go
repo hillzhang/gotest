@@ -1,19 +1,13 @@
 package main
 
 import (
-	"os/exec"
-	"github.com/qiniu/log"
 	"fmt"
+	"gotest/cron"
 )
-func init() {
-	log.SetFlags(log.Ldate | log.Ltime | log.Lshortfile)
-}
+
+
 
 func main() {
-	cmd := exec.Command("netstat","|grep snmp|wc -l")
-	count ,err := cmd.CombinedOutput()
-	if err != nil {
-		log.Println(err)
-	}
-	fmt.Println(count)
+	user := cron.User{Passord:"hhh"}
+	fmt.Println(user.Passord)
 }

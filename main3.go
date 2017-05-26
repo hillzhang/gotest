@@ -18,7 +18,7 @@ func main() {
 	// Hello 消息（JSON 格式）
 	// 对应游戏服务器 Hello 消息结构体
 	m := new(msg.Test)
-	m.Name= proto.String("hillzhang")
+	m.Name= proto.String("zhanglinshan")
 
 	data,err := proto.Marshal(m)
 	// len + data
@@ -29,13 +29,13 @@ func main() {
 	binary.Write(buf,binary.LittleEndian,uint16(0))
 	binary.Write(buf,binary.LittleEndian,data)
 
-
 	// 发送消息
 	conn.Write(buf.Bytes())
 
 	b := make([]byte,100)
 
 	for {
+		fmt.Println("start")
 		n,err := conn.Read(b)
 		if err != nil {
 			fmt.Println(err)

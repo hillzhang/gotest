@@ -1,12 +1,17 @@
 package main
 
 import (
-	"github.com/gorilla/rpc/json"
 )
-type TestEchoACK struct {
-	Content string `protobuf:"bytes,1,opt,name=Content,json=content" json:"Content,omitempty"`
+import "fmt"
+
+type User struct {
+	Username string
+	RoomNum int
+	Pid int32
 }
 func main() {
-	json.EncodeClientRequest()
+	a := make([]*User,0)
+	a = append(a,nil)
+	fmt.Println(a)
 
 }

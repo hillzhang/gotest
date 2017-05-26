@@ -11,10 +11,10 @@ var (
 
 	// gate conf
 	PendingWriteNum        = 2000
-	MaxMsgLen       uint32 = 4096
+	MaxMsgLen       uint32 = 10000
 	HTTPTimeout            = 10 * time.Second
 	LenMsgLen              = 2
-	LittleEndian           = true
+	LittleEndian           = false
 
 	// skeleton conf
 	GoLen              = 10000

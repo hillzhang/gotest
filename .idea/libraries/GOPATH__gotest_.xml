@@ -4,39 +4,41 @@
       <root url="file://$PROJECT_DIR$/../bicycle" />
       <root url="file://$PROJECT_DIR$/../nasDec" />
       <root url="file://$PROJECT_DIR$/../beego_api" />
-      <root url="file://$PROJECT_DIR$/../sys_monitor" />
       <root url="file://$PROJECT_DIR$/../awesomeProject" />
       <root url="file://$PROJECT_DIR$/../golang.org" />
       <root url="file://$PROJECT_DIR$/../gopkg.in" />
       <root url="file://$PROJECT_DIR$/../server" />
+      <root url="file://$PROJECT_DIR$/../switch" />
       <root url="file://$PROJECT_DIR$/../log_collection" />
       <root url="file://$PROJECT_DIR$/../log_Script" />
       <root url="file://$PROJECT_DIR$/../nfsDecoder" />
       <root url="file://$PROJECT_DIR$/../github.com" />
       <root url="file://$PROJECT_DIR$/../CDN_Refresh" />
       <root url="file://$PROJECT_DIR$/../log_documents" />
-      <root url="file://$PROJECT_DIR$/../switch" />
       <root url="file://$PROJECT_DIR$/../nas_monitor" />
       <root url="file://$PROJECT_DIR$/../varnish_monitor" />
+      <root url="file://$PROJECT_DIR$/../sys_monitor" />
+      <root url="file://$PROJECT_DIR$/../toolbox" />
     </CLASSES>
     <SOURCES>
       <root url="file://$PROJECT_DIR$/../bicycle" />
       <root url="file://$PROJECT_DIR$/../nasDec" />
       <root url="file://$PROJECT_DIR$/../beego_api" />
-      <root url="file://$PROJECT_DIR$/../sys_monitor" />
       <root url="file://$PROJECT_DIR$/../awesomeProject" />
       <root url="file://$PROJECT_DIR$/../golang.org" />
       <root url="file://$PROJECT_DIR$/../gopkg.in" />
       <root url="file://$PROJECT_DIR$/../server" />
+      <root url="file://$PROJECT_DIR$/../switch" />
       <root url="file://$PROJECT_DIR$/../log_collection" />
       <root url="file://$PROJECT_DIR$/../log_Script" />
       <root url="file://$PROJECT_DIR$/../nfsDecoder" />
       <root url="file://$PROJECT_DIR$/../github.com" />
       <root url="file://$PROJECT_DIR$/../CDN_Refresh" />
       <root url="file://$PROJECT_DIR$/../log_documents" />
-      <root url="file://$PROJECT_DIR$/../switch" />
       <root url="file://$PROJECT_DIR$/../nas_monitor" />
       <root url="file://$PROJECT_DIR$/../varnish_monitor" />
+      <root url="file://$PROJECT_DIR$/../sys_monitor" />
+      <root url="file://$PROJECT_DIR$/../toolbox" />
     </SOURCES>
     <excluded>
       <root url="file://$PROJECT_DIR$" />
